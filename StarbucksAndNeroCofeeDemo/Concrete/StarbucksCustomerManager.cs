@@ -8,7 +8,7 @@ namespace StarbucksAndNeroCofeeDemo.Concrete
 {
     public class StarbucksCustomerManager:BaseCustomerManager 
     {
-        private ICustomerCheckService _customerCheckService;
+        public ICustomerCheckService _customerCheckService;
 
         public StarbucksCustomerManager(ICustomerCheckService customerCheckService)
         {
